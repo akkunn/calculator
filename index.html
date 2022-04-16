@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電卓</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="result">0</div>
+    <table>
+      <tr class="flex">
+        <td><button class="button" onclick="clickbutton(this)">7</button></td>
+        <td><button class="button" onclick="clickbutton(this)">8</button></td>
+        <td><button class="button" onclick="clickbutton(this)">9</button></td>
+        <td><button class="button" onclick="clickCalcButton(this)">+</button></td>
+      </tr>
+      <tr class="flex">
+        <td><button class="button" onclick="clickbutton(this)">4</button></td>
+        <td><button class="button" onclick="clickbutton(this)">5</button></td>
+        <td><button class="button" onclick="clickbutton(this)">6</button></td>
+        <td><button class="button" onclick="clickCalcButton(this)">-</button></td>
+      </tr>
+      <tr class="flex">
+        <td><button class="button" onclick="clickbutton(this)">1</button></td>
+        <td><button class="button" onclick="clickbutton(this)">2</button></td>
+        <td><button class="button" onclick="clickbutton(this)">3</button></td>
+        <td><button class="button" onclick="clickCalcButton(this)">*</button></td>
+      </tr>
+      <tr class="flex">
+        <td><button class="button" onclick="clickbutton(this)">0</button></td>
+        <td><button class="button" onclick="clickZeroZerobutton(this)">00</button></td>
+        <td><button class="button" onclick="clickPointButton(this)">.</button></td>
+        <td><button class="button" onclick="clickCalcButton(this)">/</button></td>
+      </tr>
+      <tr class="flex">
+        <td colspan="2">
+          <button class="long-button" onclick="clickbutton(this)">AC</button>
+        </td>
+        <td colspan="2">
+          <button class="long-button" onclick="clickbutton(this)">=</button>
+        </td>
+      </tr>
+      
+    </table>
+  </div>
+    
+    
+    
+    
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
